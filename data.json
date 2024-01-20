@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "Rubik Gan 356 RS stickerless 3x3x3 (SP004254)",
+        "price": "350.000",
+        "cost": "525.000",
+        "image": "/spck_dung/anh/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rubik 3x3 GAN 356 M Stickerless with GES+ (Cao cấp có nam châm)",
+        "price": "590.000",
+        "cost": "650.000",
+        "image": "/spck_dung/anh/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Rubik GAN 356 M no GES+ 3x3 Stickerless có nam châm cao cấp (SP006057)",
+        "price": "499.000",
+        "cost": "550.000",
+        "image": "/spck_dung/anh/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rubik GAN 14 Maglev UV 3x3 có nam châm cao cấp nhất 2023 chính hãng",
+        "price": "1.600.000",
+        "cost": "1.800.000",
+        "image": "/spck_dung/anh/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rubik Gan 356 i Carry 3x3x3 Stickerless có bluetooth nam châm cao cấp chính hãng kết nối điện thoại",
+        "price": "650.000",
+        "cost": "1.000.000",
+        "image": "/spck_dung/anh/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Rubik QiYi MS 3x3 Magnetic Stickerless có nam châm",
+        "price": "150.000",
+        "image": "/spck_dung/anh/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Rubik QiYi MS Magnetic 4x4 Stickerless có nam châm (SP006062)",
+        "price": "160.000",
+        "image": "/spck_dung/anh/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Combo Rubik biến thể - MoFangJiaoShi Gift Packing With 4 Cubes Stickerless",
+        "price": "350.000",
+        "image": "/spck_dung/anh/8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Rubik 4x4 Gan 460M Stickerless có nam châm cao cấp(SP003613)",
+        "price": "500.000",
+        "image": "/spck_dung/anh/9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Rubik GAN Skewb M Stickerless -SP006339",
+        "price": "250.000",
+        "image": "/spck_dung/anh/10.jpg"
+    }
+]
