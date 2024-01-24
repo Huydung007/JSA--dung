@@ -21,7 +21,8 @@ function loadProducts(data) {
             <img src="${data[i].image}" alt="..." width="100%">
             <div class="card-body">
                 <h6 class="card-title">${data[i].name}</h6>
-                <a href="#" class="btn btn-primary" onclick="addProduct(event)">${data[i].price}đ</a>
+                <h5><span class="product-price">${data[i].price}đ</span></h5>
+                <button class="btn btn-primary" onclick="addProduct(event)">Mua ngay!</button>
             </div>
         </div>`
         product_area.innerHTML += output
@@ -57,14 +58,14 @@ cartBtn.addEventListener("click", () => {
 })
 
 let addProduct = (event) => {
-    let title = event.target.parentElement.parentElement.childNodes[1].innerText
-    let price = event.target.parentElement.childNodes[1].childNodes[1].innerText
+    let name = event.target.parentElement.childNodes[0].innerText
+    let price = event.target.parentElement.childNodes[1].innerText
     id += 1
     total += parseInt(price)
     let output = `<tr>
         <td>${id}</td>
-        <td>${title}</td>
-        <td>$${price}</td>
+        <td>${name}</td>
+        <td>${price}</td>
     </tr>`
     cartbody.innerHTML += output
     cartTotal.innerHTML = total
@@ -113,15 +114,15 @@ function login() {
 
     for (let i = 0; i < userStorage.length; i++) {
         if (checkInputVAlue(email_input, userStorage[i].email)) {
-            if (checkInputVAlue(password_input, userStorage[i].pw)) {
-                alert('Login successfully!')
+            if (checkInputVAlue(password_input, userStorage[i].password)) {
+                alert('Đăng nhập thành công!')
                 return
             } else {
-                alert('Wrong password')
+                alert('vui lòng nhập đúng mật khẩu')
                 return
             }
         } else {
-            alert('User is not exised')
+            alert('Không tìm thấy địa chỉ email')
             return
         }
     }
